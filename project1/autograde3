@@ -1,0 +1,13 @@
+This is your grade report from the Autograder ran on 2020-02-03 12:54:43. 
+For this project we ran 1 evaluation(s) on your committed code. On the srm_eval evaluation you scored 70 points with our tests. You scored 0 points in the competition because of an error:
+Traceback (most recent call last):
+  File "/home/warehouse/SEAS-SVC-CSE517A/cse517a/server/autograder/grading_temp/project1/teng.ming-che/srm_eval.py", line 52, in srm_eval
+    test_data = io.loadmat('data/data_test_autograder.mat')
+  File "/project/linuxlab/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 218, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/project/linuxlab/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/project/linuxlab/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio5.py", line 231, in read_var_header
+    raise TypeError('Expecting miMATRIX type here, got %d' % mdtype)
+TypeError: Expecting miMATRIX type here, got 3918849701
+For this project, you scored a total of 70 points.

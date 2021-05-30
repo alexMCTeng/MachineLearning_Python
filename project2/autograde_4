@@ -1,0 +1,8 @@
+This is your grade report from the Autograder ran on 2020-02-21 20:00:13. 
+For this project we ran 1 evaluation(s) on your committed code. On the nb_eval evaluation you scored 51 points with our tests. Unfortunately, you failed 3 test(s) on this evaluation: 
+
+Failed Test 3: The calculation of P(X|Y) seems incorrect.
+
+Failed Test 7: Your P(X|-1) returned a wrong answer
+Failed Test 8: Your P(X|+1) returned a wrong answer
+Your implementation for nb_eval was competitive! You scored 30 points based on the efficiency or quality of your code. For this project, you scored a total of 81 points.
